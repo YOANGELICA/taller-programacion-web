@@ -9,7 +9,7 @@
   <Divide></Divide>
   <Nine></Nine>
   <Grades></Grades>
-  
+  <Grades2></Grades2>
 </template>
 
 <script>
@@ -23,6 +23,7 @@
   import Divide from './components/Divide.vue';
   import Nine from './components/Nine.vue';
   import Grades from './components/Grades.vue';
+  import Grades2 from './components/Grades2.vue';
 
   export default{
       name: 'App',
@@ -36,7 +37,8 @@
     ThreeNumbers,
     Divide,
     Nine,
-    Grades
+    Grades,
+    Grades2
     }
   }
 </script>
